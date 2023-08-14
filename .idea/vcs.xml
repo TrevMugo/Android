@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ Trevor_Bootstrap (Week II)" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Python(Week IV)" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AugustIntroKotlin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Django_Week_V" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Ferrari" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Python(Week IV &amp; V)" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Super" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Web Portfolio(Week III)" vcs="Git" />
   </component>
 </project>

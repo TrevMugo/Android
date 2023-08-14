@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Master</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/styles.css' %}">
+</head>
+<body>
+<a href="{% url 'home_page' %}"><button class="btn btn-warning">Home</button></a>
+<a href="{% url 'about_page' %}"><button class="btn btn-info">About.</button></a>
+<a href="{% url 'gallery_page' %}"><button class="btn btn-group">Gallery</button></a>
+<button class="btn btn-secondary">Login</button>
+<button class="btn btn-success">Register</button>
+<hr>
+{% block content %}
+    <h1 class="text-info">Emobilis % Co.</h1>
+    <hr>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Culpa expedita in itaque omnis quae quam voluptatibus.
+    Adipisci aliquam consectetur, dolorum
+    eveniet illum iusto maxime, natus non
+    similique voluptas voluptate voluptatum.</p>
+{% endblock %}
+
+</body>
+</html>
